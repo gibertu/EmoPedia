@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul { list-style:none; padding-left: 5px; }
+li{ padding: 5px; }
+a { color:rgb(255, 255, 255);
+}
+header {
+    background-color: rgba(0, 0, 0, 0.755);
+    border-bottom: solid 1px #cdcdcd;
+    display: flex;
+    color: rgb(255, 255, 255);
+    }
+.logo{
+    margin: 5px 20px;
+}
+.h1{
+    margin: 5px 175px;
+}
+.titulo{
+    text-decoration: none;
+    font-size: larger;
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.755);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size:larger;
+}
+footer {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.755);
+    min-height: 75px;
+    border-top: solid 1px #cdcdcd;
+    color: rgb(255, 255, 255);
+}
+.logogithub{
+    margin-right: 10px; 
+}
+.logolinkedin{
+    margin-right: 10px; 
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
